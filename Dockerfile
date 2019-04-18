@@ -30,6 +30,6 @@ COPY ./info.php /src/public/index.php
 COPY ./start.sh /start.sh
 RUN chmod 755 /start.sh
 
-EXPOSE 8080
+#EXPOSE 8080
 
 CMD ["/bin/ash", "/start.sh"]
